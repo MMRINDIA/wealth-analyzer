@@ -3,7 +3,7 @@
 import os
 import json
 from datetime import datetime
-from analyzer.risk_detector import detect_risks
+from risk_detector import detect_risks
 
 SESSION_LOG_DIR = "outputs/session_logs/"
 KNOWN_FUNDS_FILE = "outputs/known_funds.json"
