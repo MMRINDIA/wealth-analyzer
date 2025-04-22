@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-from analyzer.engine import analyze_portfolio
-from analyzer.charts import generate_pie_chart
-from analyzer.sip_projection import run_sip_projection
-from analyzer.utils import get_excel_template  # ✅ Only using get_excel_template
+from engine import analyze_portfolio
+from charts import generate_pie_chart
+from sip_projection import run_sip_projection
+from utils import get_excel_template  # ✅ Only using get_excel_template
 
 st.set_page_config(page_title="Wealth Analyzer", layout="wide")
 st.sidebar.image("static/logo.png", use_container_width=True)
