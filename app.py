@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 from analyzer.engine import analyze_portfolio
 from analyzer.charts import generate_pie_chart
-from analyzer.sip_projection import run_sip_projection
+from sip_projection import run_sip_projection
 
 def load_portfolio(file_path="data/sample_portfolio.xlsx"):
     try:
